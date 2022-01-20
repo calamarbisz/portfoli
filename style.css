@@ -91,20 +91,6 @@ float:left;
  margin: 0% 2% 5% 5%;
 }
 
-.zoom {
-  transition: transform .2s;
-  margin: 0 auto;
-  display:block;
-  margin:auto;
-}
-
-.zoom:hover {
-  display:block;
-  margin:auto;
-  -ms-transform: scale(2.2); /* IE 9 */
-  -webkit-transform: scale(2.2); /* Safari 3-8 */
-  transform: scale(2.2);
-}
 .linksasitios{
   float: right;
   margin-right: 3%;

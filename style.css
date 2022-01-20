@@ -1,0 +1,122 @@
+@font-face {
+  font-family: flowerfont;
+  src: url("flower_font/flower_hollow.ttf");
+}
+
+@font-face {
+  font-family: flowerfontS;
+  src: url("flower_font/flower_solid.ttf");
+}
+
+h1{
+  color: rgb(0, 200, 100);
+  font-family: Arial;
+  padding-top: 2%;
+}
+
+h4{
+  color: #A0A0A0;
+  font-family: Arial;
+  margin-top: -2%;
+}
+
+h3{
+  color: #7B68EE;
+  font-size: 300%;
+  font-family: flowerfont;
+  padding: 0% 5% 0% 3%;
+  text-align: center;
+}
+
+footer{
+  color: black;
+  font-size: 0.5em;
+  font-family: Arial;
+}
+
+p{
+  font-family: times;
+  padding: 0% 15% 5% 25%;
+  text-align: justify
+}
+
+
+p1{
+  font-family: flowerfont;
+  font-size: 340%;
+  text-align: center;
+  color: pink;
+  text-decoration: none;
+
+}
+
+a:link{
+  color: pink;
+  text-decoration: none;
+  text-shadow: purple;
+}
+
+a:visited{
+  color: white;
+}
+
+p1:hover{
+  font-family: flowerfontS;
+  color: 	white;
+  font-size: 340%;
+}
+
+section{
+  padding-left: 5%;
+  padding-top: 30%;
+  padding-right: 45%;
+}
+
+img{
+  padding: 0% 0% 0% 1%;
+}
+
+#hp  {
+float: right;
+ margin: 2% 30% 5% 0;
+}
+
+#frame  {
+float:left;
+ margin: 0% 0% 5% 0%;
+}
+
+#frame1 {
+float:left;
+ margin: 0% 2% 5% 5%;
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+  display:block;
+  margin:auto;
+}
+
+.zoom:hover {
+  display:block;
+  margin:auto;
+  -ms-transform: scale(2.2); /* IE 9 */
+  -webkit-transform: scale(2.2); /* Safari 3-8 */
+  transform: scale(2.2);
+}
+.linksasitios{
+  float: right;
+  margin-right: 3%;
+}
+
+.linkvideo{
+  float: right;
+  margin-right: 3%;
+  padding: 0% 15% 2% 15%;
+  text-align: justify
+}
+
+.centered{
+  text-align: center;
+}

@@ -8,49 +8,65 @@
   src: url("flower_font/flower_solid.ttf");
 }
 
-h1{
-  color: rgb(0, 200, 100);
-  font-family: Arial;
-  padding-top: 2%;
+@font-face{
+  font-family: 'Noto Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
 }
 
-h4{
-  color: #A0A0A0;
-  font-family: Arial;
-  margin-top: -2%;
-}
 
 h3{
-  color: #7B68EE;
-  font-size: 300%;
-  font-family: flowerfont;
-  padding: 0% 5% 0% 3%;
-  text-align: center;
+  font-family: flowerfontS;
+  font-size:5vw;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  padding-left: 5%;
+  margin: 3% 0 2% 0;
 }
 
-footer{
+h1{
+  font-family: 'Noto Sans', sans-serif;;
+  font-size:3vw;
+  text-align: left;
   color: black;
-  font-size: 0.5em;
-  font-family: Arial;
+  text-decoration: none;
+  padding-left: 2%;
+  margin: 5% 0 2% 0;
 }
+
+section{
+  padding: 34% 50% 2% 4%
+}
+
 
 p{
   font-family: times;
-  padding: 0% 15% 5% 25%;
-  text-align: justify
-  font-size: medium;
-  
+  padding: 2% 6% 2% 2%;
+  text-align: justify;
+  font-size: 1.5vw;
 }
 
+.textil{
+  padding: 0 20% 5% 4%;
+}
 
 p1{
   font-family: flowerfont;
-  font-size: 340%;
+  font-size:3.8vw;
   text-align: center;
   color: pink;
   text-decoration: none;
-
 }
+
+p1:hover{
+  font-family: flowerfontS;
+  color: 	white;
+  font-size: 340%;
+}
+
+.disabled {
+       pointer-events: none;
+     }
 
 a:link{
   color: pink;
@@ -62,25 +78,38 @@ a:visited{
   color: white;
 }
 
-p1:hover{
-  font-family: flowerfontS;
-  color: 	white;
-  font-size: 340%;
+.centvideo{
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 0;
 }
 
-section{
-  padding-left: 5%;
-  padding-top: 30%;
-  padding-right: 45%;
+.centvideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 
 img{
   padding: 0% 0% 0% 1%;
 }
 
+.flor{
+  padding-left:50%;
+}
+
+.fotostextil{
+  margin: 0 0% 2% 3% ;
+}
+
 #hp  {
 float: right;
- margin: 2% 30% 5% 0;
+ margin: 0% 50% 0% 0;
 }
 
 #frame  {
@@ -99,12 +128,8 @@ float:left;
 }
 
 .linkvideo{
-  float: right;
-  margin-right: 3%;
-  padding: 0% 15% 2% 15%;
-  text-align: justify
-}
+  display: inline;
+  margin: 0% 15% 3% 25%;
+  float: left;
 
-.centered{
-  text-align: center;
 }
